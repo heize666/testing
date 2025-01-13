@@ -1,0 +1,20 @@
+ZPA Policies
+
+Access Policy
+	-control which users or groups of users can access specific internal apps
+	-user *defined using AD, IdP (SAML/SCIM)
+	-group *based on user groups or attribute (role, department)
+	-
+Timeout Policy
+Client Forwarding Policy
+Isolation Policy
+
+
+ZPA prioritizes user authentication via SAML/SCIM attributes and devices posture checks.
+	-evaluates policies based on user credentials and device attributes
+
+	-ZCC connecting to the ZPA public or private Service Edge/broker
+	-SAML/SCIM/Device posture is evaluated 
+	-Broker makes a Client Forwarding policy for ZCC (what app segments the user is allowed) 
+Access Policies
+
