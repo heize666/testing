@@ -1,4 +1,0 @@
-ZPA
-policies
-app segment
-port number
